@@ -1,4 +1,4 @@
-# thực hiện hàm trong python
+# thực hiện hàm trong python và thực hiện các kiểu cấu trúc dữ liệu
 
 # def function_name(parameters):
 #     statements
