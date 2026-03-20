@@ -103,7 +103,8 @@
     # Dictionary
     # Tuple
     # Set
-# Cắt list : list_name[begin:end:step]
+# Các hàm cơ bản của List
+#Cắt list : list_name[begin:end:step]
     #  data = ["red","green","blue","yellow","black"]
     #  print(data[0:3]) -> red ,green ,blue
     #  print(data[::-1]) lấy giá trị từ phải sang trái
@@ -112,11 +113,11 @@
     # data = [2, 4, 6]
     # data.insert(1, 10)
     # print(data)
-# Hàm append : chèn vào cuối mảng (append phần tử mới)
+# Hàm append : chèn vào cuối mảng (append coi như từng phần tử thêm vào là phần tử mới)
 #     data = [2, 4, 6]
 #     data.append( 10)
 #     print(data)
-# Hàm extend (extend từng phần tử khác nhau)
+# Hàm extend (extend từng phần tử khác nhau ~ +)
     # data = [2, 4, 6]
     # data.extend([10, 6, 2, 3])
     # print(data)
@@ -153,7 +154,9 @@
     # print(data.index(2))
 # Hàm sort or Sorted
 # Hàm count đếm giá trị xuất hiện bao nhiêu laanf trong mảng
-
+# Kiểm tra sự tồn tại của giá trị
+# def a in b
+# print (a)
 """
     Viết 1 hàm nhận 2 tham số đầu vào:
     1: 1 list bao gồm các số bất kỳ
