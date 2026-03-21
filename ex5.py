@@ -95,7 +95,7 @@
 # seen_numbers.append(sum_squared_digits)
 # print(seen_numbers)
 
-number = "110823"
+number = input("Enter a number:")
 seen_numbers = []
 while int(number) != 1 and number not in seen_numbers:
     seen_numbers.append(number)
