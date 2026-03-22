@@ -121,19 +121,33 @@
         36 = 2 x 2 x 3 x 3
 """
 
-n = 100
+n = 36
 def get_str(n):
     i = 2
-    while i * i < n: #Kiểm tra đến căn bậc 2 của n
+    while i**0.5 < n:
         if n % i == 0:
             print(i)
             n //= i
         else:
             i += 1
     if n > 1:
-        print(n)
+        print(n, 'Sai')
 
 print(get_str(n))
+
+# n = 36
+# def get_str(n):
+#     i = 2
+#     while i**0.5 < n: #Kiểm tra đến căn bậc 2 của n
+#         if n % i == 0:
+#             print(i)
+#             n //= i
+#         else:
+#             i += 1
+#     if n > 1:
+#         print(n)
+#
+# print(get_str(n))
 
 
 
